@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
 import operator
-from colorama import Fore
-from colorama import Style
+#from colorama import Fore
+#from colorama import Style
 
 operators = {
     '+': operator.add,
@@ -37,10 +37,10 @@ def printetc():
 
 def main():
     while True:
-        result = calculate(input(Fore.RED + "rpn calc> "))
-        #result = calculate(input("rpn calc>"))
+        #result = calculate(input(Fore.RED + "rpn calc> "))
+        result = calculate(input("rpn calc>"))
         print(result)
-    printetc()
+    #printetc()
 if __name__=='__main__':
     main()
     
