@@ -9,7 +9,7 @@ operators = {
     '-': operator.sub,
     '*': operator.mul,
     '/': operator.floordiv,
-   # '^': operator.pow,
+    '^': operator.pow,
 }
 
 def calculate(arg):
